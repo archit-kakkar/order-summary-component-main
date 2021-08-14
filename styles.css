@@ -1,0 +1,135 @@
+ * {
+    margin: 0;
+    padding: 0;
+ }
+
+ body {
+    background: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+.bg-img {
+    position: absolute;
+    height: 50vh;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+}
+
+.summary-card {
+    background-color: white;
+    margin: 3vw 34.5vw 0;
+    border-radius: 1rem;
+}
+
+.hero-image {
+    height: 170px;
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.content-section {
+    margin: 30px 4vw 0;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.heading {
+    color:hsl(223, 47%, 23%);
+    font-family: 'Red Hat Display', sans-serif;   
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.content {
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;   
+    font-size: .85rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.pricing {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: .7rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    margin-bottom: 25px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.music-img, .rates, .link {
+    display: inline-block;
+}
+
+.music-img {
+    width: 20%;
+}
+
+.rates {
+    width: 40%;
+    vertical-align: super;
+}
+    .price-tag {
+        color:hsl(223, 47%, 23%);
+        font-size: 0.9rem;
+    }
+
+    .price {
+        color: hsl(224, 23%, 55%);
+        font-size: 0.9rem;
+        font-weight: 500;
+        }
+
+.link {
+    padding-top: 15px;
+    width: 30%;
+    vertical-align: top;
+    font-size: 0.85rem;
+}
+
+.payment-btn, .cancel-btn {
+    border-radius: .7rem;
+    border: none;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.payment-btn {
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(56,41,224,0.15); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(56,41,224,0.15);
+}
+
+.payment-btn:hover {
+    background-color: hsl(245, 91%, 49%);
+}
+
+.cancel-btn {
+    background-color: #fff;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel-btn:hover {
+    background-color: whitesmoke;
+}
+
+@media (max-width:992px) {
+    .summary-card {
+        margin: 5vw 7.5vw 0;
+    }
+    /* .hero-image {
+        height: 250px;
+    }
+     */
+    
+}
